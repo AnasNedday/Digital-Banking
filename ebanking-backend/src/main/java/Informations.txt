@@ -1,0 +1,20 @@
+ //LAZY: les opérations ne seront chargées que si on les demande
+ //EAGER: les opérations seront chargées automatiquement
+
+
+Découvert : montant négatif autorisé
+
+  3 possibilittés:
+     - Single Table: une seule table pour les 3 classes
+     - Table per class: une table pour chaque classe
+     - Joined: une table pour la classe mère et une table pour chaque classe fille
+
+
+//We can use Mapstruct
+// Mapstruct is a code generator that greatly simplifies the implementation of mappings between Java bean types based on a convention over configuration approach.
+//https://mapstruct.org/
+
+Pour créer une exception non surveillée, on hérite de RuntimeException
+    // Une exception non surveillée est une exception qui n'est pas obligatoire de la gérer
+    //Sinon, on hérite de Exception
+    //Une exception surveillée est une exception qui est obligatoire de la gérer
